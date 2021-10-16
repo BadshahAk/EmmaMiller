@@ -72,7 +72,7 @@ async def _(event):
             )
         end = datetime.now()
         ms = (end - start).seconds
-        await gg.edit("🤗** Background Removed in `{}` seconds **\nPowered by [Emma Miller](https://t.me/EmmaMillerBot) \nUpdates Group 👉 @BotMasterOfficial ".format(ms))
+        await gg.edit("🤗** Background Removed in `{}` seconds **\nPowered by [☬ 𝐊𝐢𝐧𝐠 𝐨𝐟 𝐇𝐞𝐥𝐥 ☬](https://t.me/devil_hell_bot) \nUpdates Group 👉 @panditboyandy".format(ms))
     else:
         await gg.edit(
             "remove.bg API returned Errors. Please report to @BotMasterOfficial\n`{}`\nor join 👉 @BotMasterOfficial ".format(
@@ -98,7 +98,7 @@ def ReTrieveFile(input_file_name):
     return r
 
 __help__ = """
-@BotMasterOfficial
+@panditboyandy
  ❍ /rmbg: Type in reply to a media to remove it's background
 """
 __mod_name__ = "☠𝐑𝐦𝐨𝐯-𝐁𝐚𝐜𝐤☠"
