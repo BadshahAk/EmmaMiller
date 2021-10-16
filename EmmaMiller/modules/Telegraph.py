@@ -7,7 +7,7 @@ import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-Hero = "EmmaMiller"
+Hero = "☬ 𝐊𝐢𝐧𝐠 𝐨𝐟 𝐇𝐞𝐥𝐥 ☬"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Hero)
 auth_url = r["auth_url"]
@@ -42,7 +42,7 @@ async def _(event):
                 end = datetime.now()
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
-                await h.edit("**Uploaded To Telegraph!\n\n👉  https://telegra.ph{}\n\nUploaded by [Mukesh Solanki](https://t.me/mkspali)**".format(media_urls[0]),link_preview=True)
+                await h.edit("**Uploaded To Telegraph!\n\n👉  https://telegra.ph{}\n\nUploaded by [PANDIT ANDY](https://t.me/its_pandit_boy)**".format(media_urls[0]),link_preview=True)
         elif input_str == "xt":
             user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name # + " " + user_object.last_name
